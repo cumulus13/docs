@@ -1,4 +1,4 @@
-# DOCS: Documentation Viewer with Vim Navigation
+# DOCV: Documentation Viewer with Vim Navigation
 
 A powerful documentation viewer for html files generate by Sphinx, MkDocs, Docusaurus, or any static HTML files, with Vimium-C style keyboard navigation and fully customizable shortcuts.
 
@@ -19,7 +19,7 @@ A powerful documentation viewer for html files generate by Sphinx, MkDocs, Docus
 ## Installation
 
 ```bash
-pip install docs
+pip install docv
 ```
 ### Requirements
 
@@ -46,7 +46,7 @@ DOCS_DIR=/path/to/your/docs
 2. **Run the viewer**:
 
 ```bash
-python docs.py mydocs
+docs mydocs
 ```
 
 This will open `DOCS_DIR/mydocs/index.html`
@@ -57,29 +57,29 @@ This will open `DOCS_DIR/mydocs/index.html`
 
 ```bash
 # View documentation
-python docs.py <path>
+docs <path>
 
 # View with custom window size
-python docs.py <path> --width 1200 --height 800
+docs <path> --width 1200 --height 800
 
 # Disable Vim mode
-python docs.py <path> --no-vim
+docs <path> --no-vim
 
 # Show current shortcuts configuration
-python docs.py --show-config
+docs --show-config
 
 # Debug mode
-python docs.py <path> --debug
+docs <path> --debug
 ```
 
 ### Examples
 
 ```bash
 # Open mydocs docs
-python docs.py mydocs
+docs mydocs
 
 # Open specific HTML file
-python docs.py path/to/file.html
+docs path/to/file.html
 
 # Multiple documentation directories (in .env)
 DOCS_DIR=/path/to/docs1,/path/to/docs2,/path/to/docs3
@@ -274,23 +274,23 @@ DOCS_DIR=/docs/python,/docs/javascript,/docs/rust
 Then you can open docs from any of these directories:
 
 ```bash
-python docs.py requests      # Looks in all three directories
-python docs.py axios
-python docs.py tokio
+docs requests      # Looks in all three directories
+docs axios
+docs tokio
 ```
 
 ### Window Positioning
 
 ```bash
 # Open at specific position and size
-python docs.py flask --width 1200 --height 900 --x 100
+docs flask --width 1200 --height 900 --x 100
 ```
 
 ### Disable Vim Mode
 
 ```bash
 # Use as regular browser without Vim shortcuts
-python docs.py django --no-vim
+docs django --no-vim
 ```
 
 ## Technical Details

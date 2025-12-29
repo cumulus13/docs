@@ -13,7 +13,7 @@ import shutil
 from pathlib import Path
 import traceback
 
-NAME = "docs"
+NAME = "docv"
 
 def get_version():
     """
@@ -73,7 +73,7 @@ except Exception as e:
 here = os.path.dirname(os.path.abspath(__file__))
 
 
-setup(name='docs',
+setup(name='docv',
     version=get_version(),
     description=('A powerful documentation viewer with Vimium-C style keyboard navigation and fully customizable shortcuts.'),
     long_description=open(os.path.join(here, 'README.md')).read(),
@@ -83,13 +83,13 @@ setup(name='docs',
     maintainer='cumulus13',
     maintainer_email='cumulus13@gmail.com',
     url='http://github.com/cumulus13/docs',
-    packages=['docs'],
+    packages=['docv'],
     install_requires=get_requirements(),
     extras_require={'all': ['webview', 'envdot']},
     keywords='documentation viewer vimium-c shortcuts custom',
     entry_points={
         'console_scripts': [
-            'docs=docs.docs:main',
+            'docs=docv.docs:main',
         ],
     },
     classifiers=[

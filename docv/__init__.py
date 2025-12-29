@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# File: docs/__init__.py
+# File: docv/__init__.py
 # Author: Hadi Cahyadi <cumulus13@gmail.com>
 # Date: 2025-12-29
 # Description: 
