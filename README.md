@@ -2,8 +2,8 @@
 
 A powerful documentation viewer for html files generate by Sphinx, MkDocs, Docusaurus, or any static HTML files, with Vimium-C style keyboard navigation and fully customizable shortcuts.
 
-[![PyPI version](https://badge.fury.io/py/docs.svg)](https://badge.fury.io/py/docs)
-[![Downloads](https://pepy.tech/badge/docs)](https://pepy.tech/project/docs-viewer-vim)
+[![PyPI version](https://badge.fury.io/py/docv.svg)](https://badge.fury.io/py/docv)
+[![Downloads](https://pepy.tech/badge/docv)](https://pepy.tech/project/docv)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
