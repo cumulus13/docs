@@ -364,4 +364,4 @@ Found a bug or want a feature? Feel free to:
 
 - Inspired by [Vimium-C](https://github.com/gdh1995/vimium-c)
 - Uses [pywebview](https://pywebview.flowrl.com/)
-- Configuration via [envdot](https://github.com/pedroallenrevez/envdot)
+- Configuration via [envdot](https://github.com/cumulus13/envdot)
