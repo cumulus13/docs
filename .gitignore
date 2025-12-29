@@ -1,0 +1,29 @@
+*.pyc
+*.bak
+*.zip
+*.rar
+*.7z
+*.mp3
+*.wav
+*.sublime-workspace
+.hg/
+build/
+*.hgignore
+*.hgtags
+*dist/
+*.egg-info/
+traceback.log
+__pycache__/
+*.log
+
+# Added entries (7 items)
+logo0*
+logo1*
+*.ini
+*.0
+*sublime*
+docs-rust/
+*.env
+
+# Added entries (1 items)
+.pt/
